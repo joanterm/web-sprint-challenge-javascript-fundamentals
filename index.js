@@ -30,10 +30,14 @@ function myFunction() {
 💡 NOTE: you may use a for loop for this function if you wish 
 */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
-
-  }
+function summation(number) {
+  let count = 0;
+  for (let i=1; i<=number; i++) {
+      count += i
+  } 
+  return count
+} 
+console.log(summation(4))
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
